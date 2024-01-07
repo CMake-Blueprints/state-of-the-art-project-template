@@ -1,11 +1,9 @@
 #pragma once
 
-namespace MyProject {
-namespace lib2 {
+namespace MyProject::lib2 {
 
 int halfTruth() {
     return 21;
 }
 
-} // namespace lib2   
-} // namespace MyProject
+} // namespace MyProject::lib2

@@ -2,8 +2,7 @@
 
 #include "MyProject/lib1/lib1.h"
 
-namespace MyProject {
-namespace lib1 {
+namespace MyProject::lib1 {
 
 class InterfaceImpl {
 public:
@@ -12,5 +11,4 @@ public:
     }
 };
 
-} // namespace lib    
-} // namespace MyProject
+} // namespace MyProject::lib1

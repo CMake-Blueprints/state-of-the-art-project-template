@@ -2,8 +2,7 @@
 
 #include "lib1_export.h"
 
-namespace MyProject {
-namespace lib1 {
+namespace MyProject::lib1 {
 
 class InterfaceImpl;
 
@@ -17,5 +16,4 @@ private:
     InterfaceImpl* m_impl;
 };
 
-} // namespace lib    
-} // namespace MyProject
+} // namespace MyProject::lib1
