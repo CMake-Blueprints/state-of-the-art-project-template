@@ -2,6 +2,8 @@
 
 A comprehensive multi-library project template employing the latest CMake features.
 
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/CMake-Blueprints/state-of-the-art-project-template/build-and-test.yml)
+
 - Compatible with CMake 3.23+
 - Includes compiled and header-only library examples
 - Header file management via file sets
